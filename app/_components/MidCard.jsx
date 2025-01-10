@@ -59,7 +59,7 @@ function MidCard() {
           </p>
         </div>
 
-        <p className=" py-5 text-center border-gray-400 mt-3 text-xl border-t-2">
+        <p className=" py-5 text-center border-gray-400 mt-3 text-xl border-t-2 text-black">
           You are <span className=" text-red-600">slow!</span>
         </p>
       </div>
@@ -78,7 +78,7 @@ function MidCard() {
               <p className=" text-violet-700 p-1 rounded-sm mx-1 h-fit bg-violet-200 w-fit">
                 {item.p}%
               </p>
-              <p>
+              <p className="text-black">
                 Bases on <span className="text-violet-800">{item.d}</span>
               </p>
             </div>
@@ -92,22 +92,22 @@ function MidCard() {
         </p>
         <div className="flex gap-1 justify-evenly mt-3">
           <div className="  w-fit h-full flex flex-col justify-center gap-5 items-center">
-            <p className=" bg-violet-700 text-white text-xs w-full">Q. 1-12</p>
-            <p className="rounded-sm py-3 font-semibold  bg-violet-300 px-1 border-dashed border-2 border-violet-500">
+            <p className=" bg-violet-700 text-white text-xs w-full pl-2">Q. 1-12</p>
+            <p className="rounded-sm py-3 font-semibold bg-gray-100 text-black px-1 border-dashed border-2 border-violet-500">
               40<span className=" text-xs">sec</span>
             </p>
             <p className=" text-sm font-semibold text-cyan-500">Easy</p>
           </div>{" "}
           <div className="  w-fit h-full flex flex-col justify-center gap-5  items-center">
-            <p className=" bg-violet-700 text-white text-xs w-full">Q. 12-32</p>
-            <p className="rounded-sm py-3 font-semibold  bg-violet-300 px-1 border-dashed border-2 border-violet-500">
+            <p className=" bg-violet-700 text-white text-xs w-full pl-1">Q. 12-32</p>
+            <p className="rounded-sm py-3 font-semibold bg-gray-100 text-black px-1 border-dashed border-2 border-violet-500">
               1.5<span className=" text-xs">min</span>
             </p>
             <p className=" text-sm font-semibold text-yellow-500">Medium</p>
           </div>
           <div className="  w-fit h-full flex flex-col justify-center gap-5  items-center">
-            <p className=" bg-violet-700 text-white text-xs w-full">Q. 32-40</p>
-            <p className="rounded-sm py-3 font-semibold bg-violet-300 px-1 border-dashed border-2 border-violet-500">
+            <p className=" bg-violet-700 text-white text-xs w-full pl-1 pr-1">Q. 32-40</p>
+            <p className="rounded-sm py-3 font-semibold bg-gray-100 text-black px-1 border-dashed border-2 border-violet-500">
               30<span className=" text-xs">min</span>
             </p>
             <p className=" text-sm font-semibold text-red-500">Hard</p>

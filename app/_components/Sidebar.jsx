@@ -8,8 +8,8 @@ function Sidebar() {
       className=" flex flex-col justify-center items-center p-8 w-[380px] h-screen
      bg-violet-50"
     >
-      <Image src={`/result.jpg`} alt="" width={100} height={300} className=" mr-2"/>
-      <h2 className=" text-purple-700 font-semibold text-xl">Your Result</h2>
+      <Image src={`/result.jpg`} alt="" width={100} height={300} className="mr-2"/>
+      <h2 className=" text-violet-700 font-semibold text-xl">Your Result</h2>
       <p className=" text-gray-500 text-sm">
         All your details & insights in one place
       </p>
@@ -22,11 +22,11 @@ function Sidebar() {
            border-gray-300 border-r-2 pr-7"
               >
                 <div className=" w-fit bg-violet-200  flex items-center h-fit p-2 ">
-                  <BookCheck className="" />
+                  <BookCheck className="text-black" />
                 </div>
                 <div>
                   <p
-                    className=" text-[11px] items-center bg-violet-500
+                    className=" text-[11px] items-center bg-violet-700
                      text-white px-2  rounded-full"
                   >
                     YOU'VE PASSED
@@ -40,12 +40,12 @@ function Sidebar() {
             </div>
             <div className=" ml-1 flex flex-col">
               <div
-                className=" rounded-sm py-1 px-3 w-fit self-center
-               bg-green-500 text-white text-sm"
+                className=" rounded-sm py-1 px-2 w-fit self-center
+               bg-cyan-700 text-white text-sm"
               >
                 76%
               </div>
-              <p className=" text-[12px] text-green-500">ACCURACY</p>
+              <p className=" text-[12px] text-cyan-700">ACCURACY</p>
             </div>
           </div>
 
@@ -67,22 +67,22 @@ function Sidebar() {
             </div>
             <div className=" flex justify-between text-[12px] mt-1">
               <p>
-                By <span className=" font-bold"> Parth Akotkar</span>
+                By <span className=" font-bold text-black"> Parth Akotkar</span>
               </p>
-              <p className=" bg-green-500 px-1 rounded-full text-white">
+              <p className=" bg-cyan-700 px-1 rounded-full text-white">
                 92% ACCURACY
               </p>
             </div>
           </div>
           <div className=" flex flex-col justify-evenly h-[120px]">
             <div>
-              <h3 className=" font-bold">Improve your Marks</h3>
+              <h3 className=" font-bold text-black">Improve your Marks</h3>
               <p className=" text-gray-500 text-xs">
                 Improve your score by practicing more.
               </p>
             </div>
             <button
-              className=" text-s self-center bg-violet-600 text-white px-20 
+              className=" text-s self-center bg-violet-700 text-white px-20 
              rounded-md py-1"
             >
               Practice more
@@ -95,14 +95,14 @@ function Sidebar() {
          px-5 rounded-md border flex flex-col justify-between"
         >
           <div className=" flex flex-col">
-            <h3 className=" font-bold text-lg">Revisit Paper</h3>
+            <h3 className=" font-bold text-lg text-black">Revisit Paper</h3>
             <p className=" text-gray-500 text-sm">
               Challenge your friends by simply sharing a link to this test
             </p>
           </div>
           <button
             className=" self-center flex p-1 text-s items-center 
-            gap-2 bg-violet-600 text-white px-20 
+            gap-2 bg-violet-700 text-white px-20 
              rounded-md py-1"
           >
             <FileInput size={17} />
