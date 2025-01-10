@@ -2,7 +2,7 @@
 import Sidebar from "./_components/Sidebar";
 import TopCard from "./_components/TopCard";
 import MidCard from "./_components/MidCard";
-import Graph from "./_components/BottomCard";
+import BottomCard from "./_components/BottomCard";
 import Header from "./_components/Header";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
         <div className="py-1 px-2 flex flex-col items-center justify-center gap-3 pb-0">
           <TopCard />
           <MidCard />
-          <Graph />
+          <BottomCard />
         </div>
       </div>
     </>

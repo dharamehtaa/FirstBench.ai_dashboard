@@ -52,7 +52,7 @@ function Sidebar() {
           <div className="flex bg-violet-50 mt-2 p-2 flex-col">
             <div className=" w-full flex gap-2 border-b-2 pb-2">
               <Image
-                src={`/newt.jpeg`}
+                src={`/profile.jpg`}
                 alt=""
                 width={50}
                 height={50}
