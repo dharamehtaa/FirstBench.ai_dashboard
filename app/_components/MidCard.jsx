@@ -3,15 +3,15 @@ import React from "react";
 
 function MidCard() {
   const topic = [
-    { name: "Geography", color: "bg-cyan-500" },
-    { name: "Politics", color: "bg-yellow-300" },
-    { name: "Current Affairs", color: "bg-cyan-500" },
-    { name: "General Studies", color: "bg-red-500" },
-    { name: "Mathematics", color: "bg-cyan-500" },
-    { name: "Social Studies", color: "bg-gray-300" },
-    { name: "English Literature", color: "bg-red-500" },
-    { name: "Indian History", color: "bg-yellow-300" },
-    { name: "Economics", color: "bg-cyan-500" },
+    { name: "Geography", color: "bg-cyan-600" },
+    { name: "Politics", color: "bg-yellow-500" },
+    { name: "Current Affairs", color: "bg-cyan-600" },
+    { name: "General Studies", color: "bg-red-700" },
+    { name: "Mathematics", color: "bg-cyan-600" },
+    { name: "Social Studies", color: "bg-gray-400" },
+    { name: "English Literature", color: "bg-red-700" },
+    { name: "Indian History", color: "bg-yellow-500" },
+    { name: "Economics", color: "bg-cyan-600" },
   ];
 
   const approach = [

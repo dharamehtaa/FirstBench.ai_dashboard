@@ -2,7 +2,7 @@
 import Sidebar from "./_components/Sidebar";
 import TopCard from "./_components/TopCard";
 import MidCard from "./_components/MidCard";
-import Graph from "./_components/Graph";
+import Graph from "./_components/BottomCard";
 import Header from "./_components/Header";
 
 export default function Home() {

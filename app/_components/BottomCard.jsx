@@ -12,7 +12,6 @@ import {
 } from "chart.js";
 import Image from "next/image";
 
-// Register the necessary components
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -22,18 +21,17 @@ ChartJS.register(
   Legend
 );
 
-function Graph() {
+function BottomCard() {
   return (
-    <div className="flex gap-4 ">
+    <div className="flex gap-4 w-full">
       <div
-        className="bg-white border-2 mt-2 w-fit p-4  py-0
-      rounded-md"
+        className="bg-white border-2 mt-2 p-4 py-0 rounded-md w-full md:w-1/2"
       >
         <h2 className="flex items-center gap-1 text-s font-medium mb-4 text-gray-400">
           <Repeat2 />
           Compare Accuracy
         </h2>
-        <div className="w-fit h-fit">
+        <div className="w-full h-fit">
           <Bar
             data={{
               labels: ["1", "2", "3", "4", "5", "6"],
@@ -74,8 +72,8 @@ function Graph() {
         </div>
       </div>
 
-      <div className="w-fit py-1 px-10 rounded-md border-2 mt-2">
-        <h2 className="flex gap-2 text-gray-500">
+      <div className="w-full md:w-1/2 py-2 px-10 rounded-md border-2 mt-2">
+        <h2 className="flex gap-2 text-gray-500 pb-2">
           <Timer /> Time Taken
         </h2>
         <div className="relative">
@@ -89,8 +87,8 @@ function Graph() {
           />
           {/* Absolute div positioned over the image */}
           <div
-            className="absolute h-fit top-7  gap-2 flex-col inset-0 
-          flex items-left justify-center"
+            className="absolute h-fit top-7 gap-2 flex-col inset-0 
+            flex items-left justify-center pt-1"
           >
             <div
               className="h-2 bg-red-500 rounded-md"
@@ -101,7 +99,7 @@ function Graph() {
               style={{ width: `90px` }}
             />
           </div>
-          <p className="mt-1 text-xs w-72 text-gray-400">
+          <p className="mt-1 text-xs w-72 text-gray-400 pt-2 pb-1">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum.
           </p>
@@ -117,8 +115,8 @@ function Graph() {
           />
           {/* Absolute div positioned over the image */}
           <div
-            className="absolute top-8 h-fit  gap-2  inset-0 
-          flex items-left justify-start"
+            className="absolute top-8 h-fit gap-2 inset-0 
+            flex items-left justify-start"
           >
             <div
               className="h-2 bg-red-500 rounded-md"
@@ -139,4 +137,4 @@ function Graph() {
   );
 }
 
-export default Graph;
+export default BottomCard;
